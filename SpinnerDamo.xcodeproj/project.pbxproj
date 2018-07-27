@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D26EEFF20FE412200CC23CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D26EEFE20FE412200CC23CC /* AppDelegate.m */; };
+		4D26EF0220FE412200CC23CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D26EF0120FE412200CC23CC /* ViewController.m */; };
+		4D26EF0520FE412200CC23CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D26EF0320FE412200CC23CC /* Main.storyboard */; };
+		4D26EF0720FE412200CC23CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D26EF0620FE412200CC23CC /* Assets.xcassets */; };
+		4D26EF0A20FE412200CC23CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D26EF0820FE412200CC23CC /* LaunchScreen.storyboard */; };
+		4D26EF0D20FE412200CC23CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D26EF0C20FE412200CC23CC /* main.m */; };
+		4D26EF1520FE41DE00CC23CC /* SpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D26EF1420FE41DE00CC23CC /* SpinnerView.m */; };
+		4D26EF1720FE41EF00CC23CC /* SpinnerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D26EF1620FE41EF00CC23CC /* SpinnerView.xib */; };
+		4D26EF1920FE4A9700CC23CC /* wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D26EF1820FE4A9700CC23CC /* wheel.png */; };
+		4D26EF1B20FE4FBD00CC23CC /* spin_pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D26EF1A20FE4FBD00CC23CC /* spin_pointer.png */; };
+		4D26EF1D20FE547200CC23CC /* spinBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D26EF1C20FE547200CC23CC /* spinBtn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D26EEFA20FE412200CC23CC /* SpinnerDamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinnerDamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D26EEFD20FE412200CC23CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D26EEFE20FE412200CC23CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D26EF0020FE412200CC23CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D26EF0120FE412200CC23CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D26EF0420FE412200CC23CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D26EF0620FE412200CC23CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D26EF0920FE412200CC23CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D26EF0B20FE412200CC23CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D26EF0C20FE412200CC23CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D26EF1320FE41DE00CC23CC /* SpinnerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinnerView.h; sourceTree = "<group>"; };
+		4D26EF1420FE41DE00CC23CC /* SpinnerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinnerView.m; sourceTree = "<group>"; };
+		4D26EF1620FE41EF00CC23CC /* SpinnerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpinnerView.xib; sourceTree = "<group>"; };
+		4D26EF1820FE4A9700CC23CC /* wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel.png; sourceTree = "<group>"; };
+		4D26EF1A20FE4FBD00CC23CC /* spin_pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spin_pointer.png; sourceTree = "<group>"; };
+		4D26EF1C20FE547200CC23CC /* spinBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinBtn.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D26EEF720FE412200CC23CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D26EEF120FE412200CC23CC = {
+			isa = PBXGroup;
+			children = (
+				4D26EEFC20FE412200CC23CC /* SpinnerDamo */,
+				4D26EEFB20FE412200CC23CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D26EEFB20FE412200CC23CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D26EEFA20FE412200CC23CC /* SpinnerDamo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D26EEFC20FE412200CC23CC /* SpinnerDamo */ = {
+			isa = PBXGroup;
+			children = (
+				4D26EEFD20FE412200CC23CC /* AppDelegate.h */,
+				4D26EEFE20FE412200CC23CC /* AppDelegate.m */,
+				4D26EF0020FE412200CC23CC /* ViewController.h */,
+				4D26EF0120FE412200CC23CC /* ViewController.m */,
+				4D26EF1F20FE549600CC23CC /* Spinner Class */,
+				4D26EF1E20FE548B00CC23CC /* Images */,
+				4D26EF0320FE412200CC23CC /* Main.storyboard */,
+				4D26EF0620FE412200CC23CC /* Assets.xcassets */,
+				4D26EF0820FE412200CC23CC /* LaunchScreen.storyboard */,
+				4D26EF0B20FE412200CC23CC /* Info.plist */,
+				4D26EF0C20FE412200CC23CC /* main.m */,
+			);
+			path = SpinnerDamo;
+			sourceTree = "<group>";
+		};
+		4D26EF1E20FE548B00CC23CC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4D26EF1820FE4A9700CC23CC /* wheel.png */,
+				4D26EF1A20FE4FBD00CC23CC /* spin_pointer.png */,
+				4D26EF1C20FE547200CC23CC /* spinBtn.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4D26EF1F20FE549600CC23CC /* Spinner Class */ = {
+			isa = PBXGroup;
+			children = (
+				4D26EF1320FE41DE00CC23CC /* SpinnerView.h */,
+				4D26EF1420FE41DE00CC23CC /* SpinnerView.m */,
+				4D26EF1620FE41EF00CC23CC /* SpinnerView.xib */,
+			);
+			path = "Spinner Class";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D26EEF920FE412200CC23CC /* SpinnerDamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D26EF1020FE412200CC23CC /* Build configuration list for PBXNativeTarget "SpinnerDamo" */;
+			buildPhases = (
+				4D26EEF620FE412200CC23CC /* Sources */,
+				4D26EEF720FE412200CC23CC /* Frameworks */,
+				4D26EEF820FE412200CC23CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinnerDamo;
+			productName = SpinnerDamo;
+			productReference = 4D26EEFA20FE412200CC23CC /* SpinnerDamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D26EEF220FE412200CC23CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ligro;
+				TargetAttributes = {
+					4D26EEF920FE412200CC23CC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4D26EEF520FE412200CC23CC /* Build configuration list for PBXProject "SpinnerDamo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D26EEF120FE412200CC23CC;
+			productRefGroup = 4D26EEFB20FE412200CC23CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D26EEF920FE412200CC23CC /* SpinnerDamo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D26EEF820FE412200CC23CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D26EF0A20FE412200CC23CC /* LaunchScreen.storyboard in Resources */,
+				4D26EF0720FE412200CC23CC /* Assets.xcassets in Resources */,
+				4D26EF1D20FE547200CC23CC /* spinBtn.png in Resources */,
+				4D26EF1720FE41EF00CC23CC /* SpinnerView.xib in Resources */,
+				4D26EF1920FE4A9700CC23CC /* wheel.png in Resources */,
+				4D26EF0520FE412200CC23CC /* Main.storyboard in Resources */,
+				4D26EF1B20FE4FBD00CC23CC /* spin_pointer.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D26EEF620FE412200CC23CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D26EF0220FE412200CC23CC /* ViewController.m in Sources */,
+				4D26EF0D20FE412200CC23CC /* main.m in Sources */,
+				4D26EF1520FE41DE00CC23CC /* SpinnerView.m in Sources */,
+				4D26EEFF20FE412200CC23CC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D26EF0320FE412200CC23CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D26EF0420FE412200CC23CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D26EF0820FE412200CC23CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D26EF0920FE412200CC23CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D26EF0E20FE412200CC23CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D26EF0F20FE412200CC23CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D26EF1120FE412200CC23CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpinnerDamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maulik.SpinnerDamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D26EF1220FE412200CC23CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpinnerDamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maulik.SpinnerDamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D26EEF520FE412200CC23CC /* Build configuration list for PBXProject "SpinnerDamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D26EF0E20FE412200CC23CC /* Debug */,
+				4D26EF0F20FE412200CC23CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D26EF1020FE412200CC23CC /* Build configuration list for PBXNativeTarget "SpinnerDamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D26EF1120FE412200CC23CC /* Debug */,
+				4D26EF1220FE412200CC23CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D26EEF220FE412200CC23CC /* Project object */;
+}
